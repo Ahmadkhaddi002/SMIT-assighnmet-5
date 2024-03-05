@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color:#0E1B2E;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    gap: 4em;
+    justify-content: end;
+    margin: 1em 4em 5em 0em;
+    border-bottom: none;
+    color: #05D457;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav button a {
+    color:#56858D;
+    padding: 5px 17px;
+    border: 2px solid #56858D;
+    text-decoration: none; /* Remove underline from the link within the button */
+    margin: -2px;
+    background-color: #011326;
+}
+
+
+.nav button a:hover {
+    color: rgba(190, 193, 191, 0.838);
+    border: 2px solid rgba(236, 237, 236, 0.838);
+}
+
+.nav a:hover {
+    color:#56858D;
+}
+
+.content1 {
+    margin: 4em 8em;
+
+}
+
+.content1 h2 {
+    font-size: 1.5em;
+    color:#56858D;
+}
+
+.content1 h1 {
+    font-size: 4em;
+}
+
+.content1 h3 {
+    font-size: 2em;
+    margin: 0.5px 0.5em;
+    opacity: 0.4;
+}
+
+.content1 p {
+    font-size: 1em;
+    margin: 1em 1em;
+    opacity: 0.4;
+}
+.button2 button {
+    color: #56858D;
+    border: 2px solid #56858D;
+    padding: 0.5em 2em;
+    margin-left: 13em;
+    text-decoration: none; /* Remove underline from the button text */
+    background-color: #011326;
+ 
+}
+
+.button2 button:hover {
+    color: rgba(190, 193, 191, 0.838);
+    border: 2px solid rgba(236, 237, 236, 0.838);
+}
+
+.button2 button a {
+    text-decoration: none; /* Remove underline from the link within the button */
+    color: inherit; /* Inherit the color from the button */
+}
+
+.button2 button:hover a {
+    color: rgba(190, 193, 191, 0.838);
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+   margin: 1em 8em;
+}
+.about p{
+    padding-top: 3em;
+    line-height: 2em;
+    font-size: 18px;
+}
+.image img{
+    width: 245px;
+    margin: 5em 5em;
+    border-radius: 3em;
+    
+}
+.h2{
+    margin-left: 3.5em;
+    margin-top: 3em;
+    font-size: 2em;
+}
+
+#skills{
+    margin-left: 3.5em;
+    margin-top: 3em;
+    font-size: 2em;
+}
+/* .cards{
+    background-color: rgb(87, 87, 113);
+    width: 25%;
+    margin: 1em 2em;
+    color: red;
+} */
+
+.card {
+    width:25%;
+    border: 1px solid #0f0101;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #011326;
+    overflow: hidden;
+    margin: 2em 2em;
+    color: rgb(245, 243, 241);
+    background-color: #010f1c;
+    padding: 1em 1em;
+   
+}
+
+.card-header {
+    /* background-color: #12f10e; */
+    padding: 10px;
+    border-bottom: 1px solid #011326;
+    color:#56858D;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.cardrow2{
+    display: flex;
+    gap: 3em;
+
+}
+
+
+    
+  .contactus {
+    position: absolute;
+    display: flex;
+    font-size: 2em;
+    flex-direction: column;
+    margin: 4em 0em;
+    border-radius: 0 26px 26px 0px;
+    background-color: #0e0202;
+    padding: 24px 11px;
+}
+.contactus a{
+    margin: 12px 3px;
+    color: #56858D;}
+.contactus a:hover{
+    font-size: 2em;
+   
+    color: #f4f6f7;
+}
+@media screen and (max-width: 600px) {
+    /* CSS rules to apply when the screen width is 600px or less */
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+        gap: 1em; /* Reduce the gap between items for smaller screens */
+        justify-content: center; /* Center align items */
+        margin: 1em; /* Add margin to all sides */
+        border-bottom: none;
+        color: #05D457;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .nav button a {
+        color: #56858D;
+        padding: 5px 17px;
+        border: 2px solid #56858D;
+        text-decoration: none;
+        margin: -2px;
+        background-color: #011326;
+    }
+    
+    /* Media Query for smaller screens */
+    @media screen and (max-width: 600px) {
+        .nav {
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center align items */
+        }
+    }
+    
+    
+    #page1{
+        margin: 0em -1em;
+    }
+    
+.content1 {
+    margin: 4em 5em;
+}
+    .content1 h1 {
+        font-size:  24px; ;
+        
+    }
+    .content1 h2 {
+        font-size: 20px;
+    }
+    .content1 h3{
+        font-size: 16px;
+    }
+    .content1 p{
+        font-size: 14px;
+        width: 100%;
+    }
+
+
+    
+.button2 button {
+  
+ 
+    margin-left: 9em;
+    font-size: 14px;
+    padding: 10px 12px;
+}
+ 
+
+.contactus{
+    font-size: 20px;
+    margin-top: 2em;
+}
+.h2 {
+    font-size: 20px;
+    margin: 2em 5em;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em -4em;
+}
+
+
+.about p {
+   
+    line-height: 1em;
+    font-size: 14px;
+    margin-left: 88px;
+}
+.image img {
+    width: 80px;
+    margin: 5em 5em;
+    border-radius: 2em;
+}
+skills {
+    font-size: 20px;
+    margin: 2em 5em;
+}
+
+.cards {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* margin: -112px; */
+    width: 320%;
+    display: block;
+}
+.cardrow2 {
+    
+   
+    width: 321%;
+    display: block;
+}
+
+
+
+
+
+}
+
+
+
+       
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
